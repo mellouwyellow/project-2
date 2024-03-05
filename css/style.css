@@ -2,9 +2,11 @@
 
 
 h1{
-    color: orange;
+    color: whitesmoke;
     position: center;
     text-align: center;
+    background-color: #001f24;
+    border-color: #001f24 15px;
 }
 
 body{
@@ -17,7 +19,6 @@ img{
   margin-right: auto;
   width: 500px;
 }
-
 
 
 
