@@ -20,5 +20,12 @@ img{
   width: 500px;
 }
 
+h2{
+  color: #001f24;
+  position: center;
+  text-align: center;
+  background-color: #001f24;
+  border-color: #001f24 15px;
+}
 
 
