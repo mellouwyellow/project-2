@@ -1,6 +1,9 @@
-body{
-    background-color: #FFD6FC;
-}
+
+
+
+
+
+
 
 img{
     display: block;
@@ -14,4 +17,17 @@ img{
     position: center;
     text-align: center;
     background-color:#8B4191 ;
+}
+
+
+h2{
+  color:whitesmoke;
+  position: center;
+  text-align: center;
+  background-color: #8B4191;
+  border-color: #8B4191 15px;
+}
+
+body{
+  background-color: #FFD6FC;
 }
