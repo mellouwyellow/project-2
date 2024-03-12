@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
@@ -40,6 +40,7 @@ h2{
 
 
 .button {
+  position: absolute;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -49,7 +50,7 @@ h2{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: #006874;
+  background-color: #525E7D;
   font-size: 30px;
   font-family: "Bebas Neue", sans-serif;
 }
@@ -63,7 +64,7 @@ h2{
 }
 
 
-div#slider { overflow: hidden; border: 5px solid deeppink; }
+div#slider { overflow: hidden; border: 5px solid #525E7D; }
 div#slider figure img { width: 20%; height:100%;  float: left; }
 div#slider figure { 
 position: relative;
@@ -80,7 +81,7 @@ position: absolute;
 top: 45%;
 cursor: pointer;
 color: white;
-background: deeppink;
+background: #525E7D;
 padding: 20px;
 font-size: 50px;
 border:none;
@@ -91,4 +92,19 @@ left: 0px;
 }
 .btn-next{
 right: 0px;
+}
+
+p{
+  background-color: #99F0FF;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+div {
+  background-color: white;
+  width: 300px;
+  border: 15px solid #99F0FF;
+  padding: 50px;
+  margin: 20px;
 }
